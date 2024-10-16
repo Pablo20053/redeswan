@@ -1,0 +1,30 @@
+body {
+    background: radial-gradient(circle, transparent 20%, #fff4f4 20%, #fff4f4 80%, transparent 80%, transparent) 0% 0% / 64px 64px, radial-gradient(circle, transparent 20%, #fff4f4 20%, #fff4f4 80%, transparent 80%, transparent) 32px 32px / 64px 64px, linear-gradient(#9d7ab3 2px, transparent 2px) 0px -1px / 32px 32px, linear-gradient(90deg, #9d7ab3 2px, #fff4f4 2px) -1px 0px / 32px 32px #fff4f4;
+    background-size: 64px 64px, 64px 64px, 32px 32px, 32px 32px;
+    background-color: #fff4f4;
+}
+
+header {
+    text-align: center;
+}
+
+.integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.integrante {
+    text-align: center;
+    margin: 10px;
+}
+
+@media (max-width: 768px) {
+    .integrantes {
+        flex-direction: column;
+    }
+}
+img {
+    width: 600px; /* Ajusta este valor según el ancho deseado */
+    height: auto; /* Manteniendo la proporción de la imagen */
+  }
